@@ -1,0 +1,25 @@
+header h1 {
+    background-color: #57342d;
+    text-align: center;
+    padding: 25px;
+
+}
+ header h1 {
+    color: #f28a49;
+    font-size: 50px;
+ }
+ .apresentação {padding: 150px;
+    background-color: #f7e3b2;
+    text-align: center;
+ }
+ .introdução {
+    padding: 150px;
+    background-color: #9dbfa4;
+    text-align: center;
+
+ }
+    .final {
+        padding: 150px;
+        background-color: #f28a49;
+        text-align: center;
+    }
