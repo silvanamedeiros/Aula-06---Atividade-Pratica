@@ -39,20 +39,46 @@ header { /*ESTILIZANDO O CABEÇALHO*/
    text-align: center;
 
 }
-   .introdução i {
-      font-size: 200px;
+
+.introdução i {
+      font-size: 30px;
       color: #633d2e;
       
+}
 
+   .introdução p {
+      font-size: 30px;
    }
 
 
+
+
 .final {
-   padding: 200px;
+   padding: 250px;
   background-image: url(IMAGENS/caffeine-1867326_1280.jpg);/*CAMINHO DA IMAGEM*/
-  background-position: 20%;/*POSIÇÃO DA IMAGEM*/
+  background-position: 10%;/*POSIÇÃO DA IMAGEM DE FUNDO*/
   background-size: cover;/*PREENCHIMENTO TOTAL DA IMAGEM*/
+   display: flex;/*POSICIONAR O BUTTON*/
+   justify-content: center;/*DETERMINANDO A POSIÇÃO DO BUTTON*/
+
+}
+.final button {
+   width: 150px;/*LARGURA DO BOTÃO*/
+   padding: 10px;/*PREENCHIMENTO DO BOTÃO*/
+   background-color: rgba(128, 128, 128, 0.301);/*COR DE FUNDO*/
+   color: white ;/*COR DA LETRA*/
+   border-radius: 5px;/*ARREDONDAMENTO DO BOTÃO*/
+   
+}
+footer {
+   background-color: beige;/*COR DO FUNDO DO RODAPÉ*/
+   padding: 30px;
+   color: black;
+   font-size: 20px;
    text-align: center;
 
-
+}
+footer i {
+   font-size: 40px;
+   
 }
