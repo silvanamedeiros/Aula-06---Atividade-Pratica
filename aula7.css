@@ -1,0 +1,98 @@
+/*estilizando o header*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+header {
+    padding: 25px;
+    background-color: #f6b149;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+}
+header i {
+    color: #a22543;
+    font-size: 60px;
+   
+
+}
+    header h1 {
+        color:#a22543 ;
+        font-size: 36px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+       
+    }
+    .apresentação {
+        padding: 100px;
+        background-color:#f6b149; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+
+    }
+    .apresentação p{
+        color: black;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .apresentação span {
+        font-size: 30px; /* tamanho da letra*/
+        color:#a22543 ; /* cor da letra*/
+    }
+    .apresentação img {
+        width: 800px ;  
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    /* fim da apresentação*/
+
+    /* inicio da introdução*/
+
+    .introdução {
+        padding: 100px;
+        background-color:#f6b149; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        flex-direction: column-reverse;
+
+    }
+
+    .introdução p {
+        color: black;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .final {
+        padding: 160px;
+        background-image: url(IMAGENS/thor-9427916_1280.png); /* up na img*/
+        background-position: center; /* posição da img*/
+        background-size: cover;/*preenchimento da img*/
+        background-repeat: no-repeat; /*desailita repetição da img*/
+        background-attachment: fixed; /* fixa a img*/
+       
+    }
+    .final button {
+        padding: 10px;
+        width: 120px;
+        background-color: #f6b149;
+        display: flex;
+        justify-content: center;
+        color: black;
+
+    }
+
+
+    footer p {
+        padding: 100px;
+        background-color:#f6b149; 
+        color: black;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
